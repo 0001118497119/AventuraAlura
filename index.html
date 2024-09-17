@@ -1,32 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Os Três Porquinhos</title>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Os três porquinhos</title>
 </head>
 <body>
-
     <main>
-    <div class="passo ativo" id="passo-0">
-        <img scr="tresporquinhos.png" alt=""
-        <p>Haviam três porquinhos, que estavam se tornando independentes e precisavam fazer uma casa para cada um deles.</p>
-    <button class="btn-proximo" data-proximo="1">Um porquinho</button>
-    <button class="btn-proximo" data-proximo="2">Os outros dois porquinhos</button>
-</div>
-<div class="passo" id="passo-1">
-    <p>Este porquinho decidiu fazer a casa de tijolos, para se proteger do lobo-mal.</p>
-<button class="btn-proximo" data-proximo="3">Continuar com os tijolos</button>
-<button class="btn-proximo" data-proximo="4">Mudar o material de construção</button>
-</div>
-</main>
-<script src="script.js"></script>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/tresporquinhos.png" alt="">
+            <p>Haviam tres porquinhos, que estavam se tornando independentes e precisavam fazer uma casa para cada um deles.</p>
+            <button class="btn-proximo" data-proximo="1">Um porquinho</button>
+            <button class="btn-proximo" data-proximo="2">Outros dois porquinhos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Este porquinho decidiu fazer a casa de tijolos, para se proteger do lobo-mal.</p>
+            <button class="btn-proximo" data-proximo="3">Continuar com os tijolos</button>
+            <button class="btn-proximo" data-proximo="4">Mudar o material de construção</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Estes  dois porquinhos, queriam economizar mais. E um fez a casa de palha e o outro fez de madeira.</p>
+            <button class="btn-proximo" data-proximo="5">Casa de palha</button>
+            <button class="btn-proximo" data-proximo="6">Casa de madeira/button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O porquinho Tiago termina de construir sua casa com tijolos e cimento</p>
+            <button class="btn-proximo" data-proximo="7">Proxima noite</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Ele ve que o lobo é muito perigoso, e que é mais seguro continuar com os tijolos.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A noite o lobo chegou. E em um só sopro derrubou a casa de palha do porquinho Pedro.</p>
+            <button class="btn-proximo" data-proximo="7">correu pra casa do irmão pig</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O lobo,  cansado, não foi a casa do porquinho Marcos.</p>
+            <button class="btn-proximo" data-proximo="8">Continuou na sua casa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Os dois porquinhos chegam a casa de Tiago para se abrigarem e conta que o lobo destruiu as casas deles.</p>
+            <button class="btn-proximo" data-proximo="9">Lobo-mal não deruba a casa</button>
+            <button class="btn-proximo" data-proximo="10">Lobo-mal derruba a casa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>A noite, o lobo chegou. E com trres sopros ele conseguiu derrubar a casa de madeira do porquinho Marcos.</p>
+            <button class="btn-proximo" data-proximo="7">correu para a casa do irmão pig</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O lobo-mal encosta na porta e percebe que os porquinhos esqueceram de fechar. E então o lobo mal da de cara com eles.</p>
+            <button class="btn-proximo" data-proximo="11">Eles se encontram com o lobo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O lobo-mal chega na casa. Assopra muito forte, várias vezes e derruba a casa dos tres porquinhos</p>
+            <button class="btn-proximo" data-proximo="12">Os porquinhos correm</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>O lobo para perto deles, e diz:
+                -Eu só queria tomar um cafézinho junto com vocês</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Os porquinhos correm desesperados até a floresta</p>
+            <button class="btn-proximo" data-proximo="11">Eles se encontram com o lobo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
